@@ -7,7 +7,7 @@
    ========================================================================== */
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #546E7A;
+  color: #fff;
   font-size: 14px;
   font-weight: 400;
   background: #fff;
@@ -2235,7 +2235,7 @@ footer .menu li a:hover {
 }
 
 .contact-footer li span a {
-  color: #546E7A;
+  color: #fff;
 }
 
 .contact-footer li span a:hover {
