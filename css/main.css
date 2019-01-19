@@ -1193,7 +1193,7 @@ button:focus {
   background: #f9f9f9;
   display: inline-block;
   line-height: 60px;
-  font-size: 24px;
+  font-size: 38px;
   text-align: center;
   border-radius: 50%;
   -webkit-transform: scale(1);
@@ -2388,3 +2388,22 @@ footer .menu li a:hover {
   font-size: 18px;
   margin-bottom: 0;
 }
+
+.if-image {
+ 
+  filter: grayscale(100%);
+   
+  -webkit-filter: grayscale(100%);
+   
+  transition:filter 0.4s;
+   
+  -webkit-transition:-webkit-filter 1s;
+   
+  }
+  .if-image:hover {
+  
+  filter: grayscale(0);
+   
+  -webkit-filter: grayscale(0);
+   
+  }
