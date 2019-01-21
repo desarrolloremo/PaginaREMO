@@ -1994,7 +1994,7 @@ textarea {
 
 #contact {
   background: #ffffff;
-  position: relative;
+  position: unset;
   overflow: hidden;
 }
 
@@ -2328,7 +2328,7 @@ footer .menu li a:hover {
  ========================================================================== */
 .counters {
   background: url(../img/bg/bg-counter.jpg) fixed;
-  position: relative;
+  position: static;
 }
 
 .counters .facts-item {
@@ -2406,4 +2406,18 @@ footer .menu li a:hover {
    
   -webkit-filter: grayscale(0);
    
+  }
+
+
+  .ir-arriba {
+    display:none;
+    padding:5px;
+    background:#2B9AB1;
+    font-size:35px;
+    color:#fff;
+    cursor:pointer;
+    position: fixed;
+    bottom:40px;
+    right:20px;
+    border-radius: 20px;
   }
